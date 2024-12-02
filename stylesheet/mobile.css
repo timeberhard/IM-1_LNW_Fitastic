@@ -91,6 +91,7 @@ justify-content: center;
 .partner_werden_kursangaben {
 display: flex;
 flex-direction: column;
+margin: 5px 10px 0px 10px
 }
 
 .partner_werden_kursort {
@@ -101,7 +102,7 @@ flex-wrap: wrap;
 
 .partner_werden_icon {
 max-width: 6vw;
-margin: 8px
+margin-right: 8px;
 }
 
 .partner_werden_kurszeit {

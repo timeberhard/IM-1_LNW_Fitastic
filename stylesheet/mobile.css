@@ -165,17 +165,25 @@ flex-wrap: wrap;
 
 
 /**======================UBERUNS======================**/
+
+.title {
+    text-align: center;
+    margin: 10px;
+    padding-top: 20px;
+}
+
 .portraits {
     
      border-radius: 50%;
      padding: 10px;
-     width: 40vw;
-     height: 40vw;
+     width: 30vw;
+     height: 30vw;
      display: flex; align-content: center;    
 }
 
 .portaitpannels {
-    padding: 10px;
+    padding: 0px;
+    margin: 10px;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -184,10 +192,9 @@ flex-wrap: wrap;
 
 .profiles {
         width: 50%;
-        padding: 10px;
+        padding: 5px;
         margin-top: 5px;
-        text-align: center;
-
+        text-align: left;
 
 }
 

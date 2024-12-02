@@ -17,6 +17,17 @@ body {
   background-color: var(--shade);
 }
 
+/* Fonts */
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "noka", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
 h1 {
   font-size: 4rem;
   font-weight: 600;
@@ -26,11 +37,13 @@ h1 {
   background-size: 100% 100%;
   color: rgba(0, 0, 0, 0);
   display: inline-block;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 2rem;
   color: var(--primary);
+  font-weight: 600;
 }
 
 .button {

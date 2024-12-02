@@ -49,7 +49,10 @@
 
 
 /**======================IMPRESSUM======================**/
-
+.impressum section {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
 
 
 
@@ -59,7 +62,11 @@
 
 
 /**======================UBERUNS======================**/
-
+.portraits {
+    
+     border-radius: 50%;
+    
+}
 
 
 

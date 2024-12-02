@@ -140,9 +140,6 @@ footer {
     align-items: center;
     flex-direction: column;
     border-top: var(--secondary) solid 2px;
-    position: fixed;
-    bottom: 0;
-    font-size: 1.25rem;
 }
 
 .footer_logo, footer nav, .footer_adress {
@@ -154,7 +151,7 @@ footer p a, footer ul li a {
 }
 
 .footer_logo {
-    margin: 1.5rem 0;
+    margin: 2rem 0;
 }
 
 .footer_logo img {
@@ -243,7 +240,8 @@ flex-direction: column;
 
 .partner_werden_box {
 border-radius: 20px;
-border: solid 2px white
+border: solid 2px white;
+margin-bottom: 15px;
 }
 
 .partner_werden_kursbild {
@@ -258,21 +256,17 @@ flex-direction: column;
 margin: 5px 10px 0px 10px
 }
 
-.partner_werden_kursort {
+.partner_werden_kursdaten {
 display: flex;
 justify-content: flex-start;
-flex-wrap: wrap;
+align-items: center;
+margin-bottom: 15px;
 }
 
 .partner_werden_icon {
 max-width: 6vw;
 margin-right: 8px;
-}
-
-.partner_werden_kurszeit {
-display: flex;
-justify-content: flex-start;
-flex-wrap: wrap;
+object-fit: contain;
 }
 
 
@@ -280,7 +274,10 @@ flex-wrap: wrap;
 .impressum section {
     margin-bottom: 15px;
     margin-top: 20px;
+
 }
+
+
 
 
 
@@ -368,6 +365,14 @@ flex-wrap: wrap;
 .support section {
     margin-bottom: 40px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.support section .button {
+    margin-top: 25px;
 }
 
 
@@ -381,6 +386,7 @@ flex-wrap: wrap;
   color: var(--highlight);
   font-family: "noka", sans-serif;
   font-style: normal;
+  Display: flex; align-content: center;
   }
   
   .custom-box summary {

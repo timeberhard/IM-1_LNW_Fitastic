@@ -9,7 +9,7 @@
   --secondary: #D60059;
   --shade: #1E1E1E;
   --highlight: #F5F5F5;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--highlight);
   font-family: "noka", sans-serif;
   font-style: normal;
@@ -117,5 +117,5 @@ h5 {
 main {
   width: 90vw;
   max-width: 1200px;
-  margin: auto;
+  margin: 3rem auto;
 }

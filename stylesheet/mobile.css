@@ -118,7 +118,8 @@ flex-direction: column;
 
 .partner_werden_box {
 border-radius: 20px;
-border: solid 2px white
+border: solid 2px white;
+margin-bottom: 15px;
 }
 
 .partner_werden_kursbild {
@@ -133,21 +134,17 @@ flex-direction: column;
 margin: 5px 10px 0px 10px
 }
 
-.partner_werden_kursort {
+.partner_werden_kursdaten {
 display: flex;
 justify-content: flex-start;
-flex-wrap: wrap;
+align-items: center;
+margin-bottom: 15px;
 }
 
 .partner_werden_icon {
 max-width: 6vw;
 margin-right: 8px;
-}
-
-.partner_werden_kurszeit {
-display: flex;
-justify-content: flex-start;
-flex-wrap: wrap;
+object-fit: contain;
 }
 
 

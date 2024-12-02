@@ -49,7 +49,9 @@
 
 
 /**======================IMPRESSUM======================**/
-
+.impressum section {
+    margin-bottom: 15px;
+}
 
 
 

@@ -170,7 +170,7 @@ flex-wrap: wrap;
     
 }
 
-.
+
 
 
 
@@ -190,14 +190,16 @@ flex-wrap: wrap;
 
 
 /**======================SUPPORT======================**/
+
+
 .support section {
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     margin-top: 20px;
 }
 
 
 .custom-box {
-    background-color: background-color: var(--shade); /* Hintergrundfarbe */
+    background-color: var(--shade); /* Hintergrundfarbe */
     border: 2px solid #F5F5F5; /* Rand */
     border-radius: 5px; /* Abgerundete Ecken */
     padding: 10px; /* Innenabstand */
@@ -222,7 +224,7 @@ font-size: 12px;
   .custom-box p {
     font-size: 12px;
     line-height: 1.5;
-    color:  #F5F5F55;
+    color: #F5F5F5;
     padding-top: 10px; 
   }
 

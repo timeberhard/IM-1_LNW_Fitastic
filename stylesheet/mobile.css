@@ -86,13 +86,41 @@
 
 
 /**======================SUPPORT======================**/
+.support section {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
 
 
+.custom-box {
+    background-color: background-color: var(--shade); /* Hintergrundfarbe */
+    border: 2px solid #F5F5F5; /* Rand */
+    border-radius: 5px; /* Abgerundete Ecken */
+    padding: 10px; /* Innenabstand */
+    margin: 10px 0; /* Abstand zwischen den Boxen */
+    font-size: 12px;
+  color: var(--highlight);
+  font-family: "noka", sans-serif;
+  font-style: normal;
+  }
+  
+  .custom-box summary {
+font-size: 12px;
+  color:  #F5F5F5;
+  font-family: "noka", sans-serif;
+  font-style: normal;
 
-
-
-
-
+    cursor: pointer; 
+    padding: 5px; 
+  }
+  
+ 
+  .custom-box p {
+    font-size: 12px;
+    line-height: 1.5;
+    color:  #F5F5F55;
+    padding-top: 10px; 
+  }
 
 
 /**======================FORMULARPARTNER======================**/

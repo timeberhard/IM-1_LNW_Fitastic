@@ -40,12 +40,75 @@
 
 /**======================PARTNER======================**/
 
+.partner_werden {
+padding: 20px 0px 20px 0px;
+text-align: center;
+}
 
+.partner_werden_bild {
+max-width: 30vw;
+}
 
+.partner_werden_vorteile {
+display: flex;
+flex-direction: column;
+}
 
+.partner_werden_vorteil-1 {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
 
+.partner_werden_vorteil-2 {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
 
+.partner_werden_vorteil-3 {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
 
+.partner_werden_kurse {
+display: flex;
+flex-direction: column;
+}
+
+.partner_werden_box {
+border-radius: 20px;
+border: solid 2px white
+}
+
+.partner_werden_kursbild {
+border-radius: 20px;
+width: 100%;
+justify-content: center;
+}
+
+.partner_werden_kursangaben {
+display: flex;
+flex-direction: column;
+}
+
+.partner_werden_kursort {
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+}
+
+.partner_werden_icon {
+max-width: 6vw;
+margin: 8px
+}
+
+.partner_werden_kurszeit {
+display: flex;
+justify-content: flex-start;
+flex-wrap: wrap;
+}
 
 
 /**======================IMPRESSUM======================**/
@@ -67,6 +130,8 @@
      border-radius: 50%;
     
 }
+
+.
 
 
 

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #AFFC41;
+  --secondary: #D60059;
+  --shade: #1E1E1E;
+  --highlight: #F5F5F5;
+  font-size: 12px;
+  color: var(--highlight);
+}
+
+body {
+  background-color: var(--shade);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(150deg, #AFFC41 -10%, #008E82 100%);
+  background-size: 100% 100%;
+  color: rgba(0, 0, 0, 0);
+  display: inline-block;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+.button {
+  padding: 16px 32px;
+  min-width: 144px;
+  background-color: var(--primary);
+  color: var(--shade);
+  border-radius: 1000px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: var(--secondary);
+  color: var(--highlight);
+}
+
+.button.secondary {
+  background-color: var(--highlight);
+}
+
+.button.secondary:hover {
+  background-color: var(--secondary);
+  color: var(--highlight);
+}
+
+.button.wire {
+  background-color: transparent;
+  color: var(--primary);
+  border: solid 2px var(--primary);
+}
+
+.button.wire:hover {
+  background-color: var(--primary);
+  color: var(--shade);
+}
+
+.button.secondary.wire {
+  background-color: transparent;
+  color: var(--highlight);
+  border: solid 2px var(--highlight);
+}
+
+.button.secondary.wire:hover {
+  background-color: var(--highlight);
+  color: var(--shade);
+}

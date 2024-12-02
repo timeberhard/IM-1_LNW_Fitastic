@@ -24,6 +24,10 @@ a {
   color: var(--primary);
 }
 
+p a:hover, footer nav li a:hover {
+  border-bottom: var(--secondary) dotted 1px;
+}
+
 h1 {
   font-size: 4rem;
   font-weight: 600;

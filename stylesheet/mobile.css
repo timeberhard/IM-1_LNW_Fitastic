@@ -9,12 +9,51 @@
 
 
 /**======================FOOTER======================**/
+footer {
+    background-color: #363935;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: var(--secondary) solid 2px;
+    position: fixed;
+    bottom: 0;
+    font-size: 1.25rem;
+}
 
+.footer_logo, footer nav, .footer_adress {
+    margin: 0.75rem 0;
+}
 
+footer p a, footer ul li a {
+    color: var(--highlight);
+}
 
+.footer_logo {
+    margin: 1.5rem 0;
+}
 
+.footer_logo img {
+    width: 25vw;
+}
 
+footer p {
+    text-align: center;
+}
 
+footer ul li {
+    text-align: center;
+    width: 100vw;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.footer_some-icons {
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 0;
+}
 
 
 
@@ -91,6 +130,7 @@ justify-content: center;
 .partner_werden_kursangaben {
 display: flex;
 flex-direction: column;
+margin: 5px 10px 0px 10px
 }
 
 .partner_werden_kursort {
@@ -101,7 +141,7 @@ flex-wrap: wrap;
 
 .partner_werden_icon {
 max-width: 6vw;
-margin: 8px
+margin-right: 8px;
 }
 
 .partner_werden_kurszeit {
@@ -172,11 +212,41 @@ flex-wrap: wrap;
 /**======================SUPPORT======================**/
 
 
+.support section {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
 
 
+.custom-box {
+    background-color: var(--shade); /* Hintergrundfarbe */
+    border: 2px solid #F5F5F5; /* Rand */
+    border-radius: 5px; /* Abgerundete Ecken */
+    padding: 10px; /* Innenabstand */
+    margin: 10px 0; /* Abstand zwischen den Boxen */
+    font-size: 12px;
+  color: var(--highlight);
+  font-family: "noka", sans-serif;
+  font-style: normal;
+  }
+  
+  .custom-box summary {
+font-size: 12px;
+  color:  #F5F5F5;
+  font-family: "noka", sans-serif;
+  font-style: normal;
 
-
-
+    cursor: pointer; 
+    padding: 5px; 
+  }
+  
+ 
+  .custom-box p {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #F5F5F5;
+    padding-top: 10px; 
+  }
 
 
 /**======================FORMULARPARTNER======================**/

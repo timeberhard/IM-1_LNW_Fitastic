@@ -17,6 +17,7 @@ header {
     position: static;
     background: none;
     width: auto;
+    max-height: none;
   }
 
   header section .menu nav ul {

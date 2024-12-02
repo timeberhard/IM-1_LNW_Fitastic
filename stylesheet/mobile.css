@@ -280,7 +280,10 @@ flex-wrap: wrap;
 .impressum section {
     margin-bottom: 15px;
     margin-top: 20px;
+
 }
+
+
 
 
 
@@ -347,6 +350,14 @@ flex-wrap: wrap;
 .support section {
     margin-bottom: 40px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.support section .button {
+    margin-top: 25px;
 }
 
 
@@ -360,6 +371,7 @@ flex-wrap: wrap;
   color: var(--highlight);
   font-family: "noka", sans-serif;
   font-style: normal;
+  Display: flex; align-content: center;
   }
   
   .custom-box summary {

@@ -87,12 +87,13 @@ header section .menu .burger:hover {
 
 header section .menu nav {
   position: absolute;
-  top: -150px;
+  top: 80px;
   left: 0;
   width: 100vw;
   background-color: #363935;
-  transition: ease top 0.5s;
-  z-index: -20;
+  transition: ease max-height 0.5s;
+  max-height: 0;
+  overflow: hidden;
 }
 
 header section .menu nav ul {
@@ -106,8 +107,7 @@ header section .menu nav ul {
 }
 
 header section .menu nav ul li {
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin: 10px 0;
 }
 
 header section .menu nav ul li.active::after {
@@ -130,7 +130,7 @@ header section .menu nav ul li a:hover {
 }
 
 header section .menu #menuopen:checked ~ nav {
-  top: 80px;
+  max-height: 260px;
 }
 
 /**======================FOOTER======================**/

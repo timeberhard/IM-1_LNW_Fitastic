@@ -303,16 +303,17 @@ flex-wrap: wrap;
      padding: 10px;
      width: 30vw;
      height: 30vw;
-     object-fit: contain;
+     object-fit: cover;
      display: flex; align-content: center;    
 }
 
 .portaitpannels {
-    padding: 0px;
+    padding: 10px;
     margin: 10px;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 
  }
 
@@ -324,10 +325,24 @@ flex-wrap: wrap;
 
 }
 
-.entstehung {
-    
+.entstehung img {
+    width: 90vw;
+    height: 70vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.gruendung {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 10px;
+
+
+}
+
+.gruendung p {
+    margin-bottom: 10px;
+}
 
 
 

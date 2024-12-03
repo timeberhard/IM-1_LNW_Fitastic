@@ -502,7 +502,7 @@ object-fit: contain;
 }
 
 .artikel{
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
  .bild_artikel {
@@ -520,8 +520,8 @@ object-fit: contain;
 }
 
 .text_artikel .button{
-    margin-top: 10px;
-    align-self: flex-end;
+    margin-top: 25px;
+    align-self: flex-start;
 }
 
 

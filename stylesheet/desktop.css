@@ -176,6 +176,49 @@ footer ul li {
 /**======================UBERUNS======================**/
 
 
+.profiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.profile {
+  text-align: center;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;    
+  margin-bottom: 40px;
+  width: 30%;
+  margin-left: 5vh;
+
+}
+
+
+
+.portrait {
+ border-radius: 50%;
+ padding: 10px;
+ width: 20vw;
+ height: 20vw;
+ max-width: 300px;
+ max-height: 300px;
+ object-fit: cover;
+}
+
+.gruendung {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.gruendung h2 {
+  margin-bottom: 10px;
+  color: #F5F5F5;
+}
+
+.gruendung p {
+  margin-bottom: 10px;
+}
+
 
 
 
@@ -197,7 +240,7 @@ footer ul li {
 
  .bild_artikel {
     width: 50%;
-    height: 30vh;
+    height: 40vh;
     border-radius: 20px;
     object-fit: cover;
  }
@@ -206,13 +249,14 @@ footer ul li {
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .text_artikel .button{
-    margin-top: auto;
-    margin-bottom: 20px;
+    margin-top: 25px;
+
 }
+
 
 /**======================SUPPORT======================**/
 

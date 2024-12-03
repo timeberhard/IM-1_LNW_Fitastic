@@ -184,6 +184,19 @@ footer ul li {
     margin: 3rem 0;
 }
 
+.footer_some-icons a svg {
+  width: 40px;
+}
+
+.footer_some-icons a svg path {
+  fill: var(--primary);
+}
+
+.footer_some-icons a:hover svg path {
+  fill: var(--secondary);
+}
+
+
 
 
 /**======================LANDING PAGE======================**/

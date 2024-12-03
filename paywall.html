@@ -43,9 +43,47 @@
 
     <main>
 
-            <h1>Jahresabo</h1>
+         <h1>Jahresabo</h1>
 
-            
+        <form class="paywall">
+            <div class="feld_kurz">
+            <input type="text" id="fname" name="fname" value="*Name">
+            <input type="text" id="lname" name="lname" value="*Nachname">
+        </div>
+
+        <div class="feld_lang">
+            <input type="text" id="email" name="email" value="*Mailadresse">
+            <input type="text" id="telnr" name="telnr" value="*Telefonnummer">
+        </div>
+
+            <h2>Zahlart</h2>
+
+        <div class="zahlmittel">
+            <label for="kreditkarte">Kreditkarte
+                <input type="radio" id="kreditkarte" name="zahlart" value="Kreditkarte">
+            </label>
+
+            <label for="twint">Twint
+                <input type="radio" id="twint" name="zahlart" value="Twint">
+            </label>
+
+            <label for="rechnung">Rechnung
+                <input type="radio" id="rechnung" name="zahlart" value="Rechnung">
+            </label>
+                
+            <label for="postfinance">Postfinance
+                <input type="radio" id="postfinance" name="zahlart" value="Postfinance"> 
+            </label>
+                
+            <label for="paypal">Paypal
+                <input type="radio" id="paypal" name="zahlart" value="Paypal">
+            </label>
+        </div>
+
+
+            </form>
+
+
 
 
 

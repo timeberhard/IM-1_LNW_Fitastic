@@ -93,15 +93,30 @@ footer ul li {
 
 
 
-/**======================Abo+Preise======================**/
+/**======================ABO+PREISE======================**/
 
+.abopreise__packages {
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.abopreise__packages__package {
+  width: 32%;
+}
 
+.abopreise__business {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.abopreise__business img {
+  width: 49%;
+}
 
-
-
-
+.abopreise__business__text {
+  width: 49%;
+}
 
 /**======================PARTNER======================**/
 

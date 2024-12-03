@@ -165,7 +165,15 @@ footer ul li {
 
 /**======================IMPRESSUM======================**/
 
+.impressum section {
+  margin-bottom: 15px;
+  margin-top: 20px;
 
+}
+
+.impressum section.disclaimer {
+  margin-top: 60px;
+}
 
 
 

@@ -507,19 +507,95 @@ object-fit: contain;
 }
 
 /**======================FORMULARPARTNER======================**/
+.kontaktformular section {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.vornamename {
+  display: flex;
+  gap: 30px; 
+  width: 100%;
+
+}
+
+.item {width: 50%
+  ;
+}
+
+
+.contact-form {
+    
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #F5F5F5;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: var(--shade);
+  font-family: "noka", sans-serif;
+  font-style: normal;
+}
 
 
 
 
 
+
+/**======================Kontaktformular======================**/
+.kontaktformular section {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.vornamename {
+  display: flex;
+  gap: 30px; 
+  width: 100%;
+
+}
+
+.item {width: 50%
+  ;
+}
+
+.contact-form {
+    
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #F5F5F5;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: var(--shade);
+  font-family: "noka", sans-serif;
+  font-style: normal;
+}
 
 
 
 
 /**======================PAYWALL======================**/
-
-
-
 
 
 

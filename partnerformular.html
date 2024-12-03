@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular – F+</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/lgy7ccv.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="stylesheet/master.css">
+    <link rel="stylesheet" href="stylesheet/mobile.css">
+    <link rel="stylesheet" href="stylesheet/desktop.css">
+</head>
+<body>
+    <header>
+      <section>
+        <a href="index.html" class="logo">
+          <img src="img/cd-library/Logo_F+_transparent.png" alt="">
+        </a>
+        <a href="index.html" class="textlogo">
+          Fitastic
+        </a>
+        <div class="menu">
+          <input type="checkbox" id="menuopen" name="menuopen">
+          <label class="burger" for="menuopen">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <nav>
+            <ul>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="abopreise.html">Abo + Preise</a></li>
+              <li><a href="sportarten.html">Sportarten</a></li>
+              <li><a href="aboutus.html">Über uns</a></li>
+              <li><a href="support.html">Support</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main class="kontaktformular">
+      <form class="contact-form" action="/send-form" method="POST">
+
+        <section><h1>Partner:in werden</h1> </section>
+
+        <section> 
+          <input type="firma" id="firma" name="firma" placeholder="Dein Unternehmen/Firma" required>
+    </section>
+
+      <section> 
+  <div class="vornamename">
+          <div class="item"><input type="text" id="name" name="name" placeholder="Name" required></div>
+          <div class="item"><input type="text" id="name" name="name" placeholder="Vorname" required>
+        </div>
+      </div>
+    </section>
+
+
+  <section> 
+        <input type="email" id="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+  </section>
+  <section> 
+    <input type="phone" id="phone" name="phone" placeholder="Deine Telefonnummer" required>
+</section>
+
+  <section>
+          <textarea id="message" name="message" placeholder="Beschreibung der Frima / des Vereines" rows="5" required></textarea>
+  </section>
+
+  <section>
+<button type="submit" class="button">Absenden</button>
+  </section>
+
+
+  
+    </form>
+
+    </main>
+    <footer>
+      <div class="footer_logo">
+        <a href="index.html">
+            <img src="img/cd-library/Logo_F+_transparent.png" alt="Logo_F+">
+        </a>
+    </div>
+    <nav class="footer_nav">
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="abopreise.html">Abo + Preise</a></li>
+            <li><a href="sportarten.html">Sportarten</a></li>
+            <li><a href="aboutus.html">Über uns</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+    </nav>
+    <div class="footer_adress">
+        <p><b>F+</b> by Fitastic<br>
+           Sommeraustrasse 32<br>
+           7000 Chur<br>
+           <br>
+           <a href="tel:+41 77 450 05 90">+41 77 450 05 90</a><br>
+           <a href="mailto:info@fitastic.ch">info@fitastic.ch</a></p>
+    </div>
+    <div class="footer_some-icons">
+        <a href="https://www.instagram.com/fitastic">
+            <img src="img/cd-library/Icons/Social-Media/SoMe-Icon_Instagram.png" alt="Logo_Instagram" class="footer_some-icons_instagram">
+        </a>
+        <a href="https://www.facebook.com/fitastic">
+            <img src="img/cd-library/Icons/Social-Media/SoMe-Icon_Facebook.png" alt="Logo_Facebook" class="footer_some-icons_facebook">
+        </a>
+        <a href="https://www.tiktok.com/fitastic">
+            <img src="img/cd-library/Icons/Social-Media/SoMe-Icon_TikTok.png" alt="Logo_TikTok" class="footer_some-icons_tikotok">
+        </a>
+        <a href="https://www.youtube.com/fitastic">
+            <img src="img/cd-library/Icons/Social-Media/SoMe-Icon_YouTube.png" alt="Logo_Facebook" class="footer_some-icons_youtube">
+        </a>
+        <a href="https://www.whatsapp.com/fitastic">
+            <img src="img/cd-library/Icons/Social-Media/SoMe-Icon_WhatsApp.png" alt="Logo_TikTok" class="footer_some-icons_whatsapp">
+        </a>
+    </div>
+    </footer>
+</body>
+</html>

@@ -26,7 +26,7 @@ header section .logo img {
 }
 
 header section .textlogo {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--highlight);
 }
 
@@ -122,7 +122,7 @@ header section .menu nav ul li.active::after {
 
 header section .menu nav ul li a {
   color: var(--highlight);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 header section .menu nav ul li a:hover {
@@ -174,10 +174,6 @@ footer ul li {
     width: 100vw;
     list-style-type: none;
     justify-content: center;
-}
-
-footer ul li.active a {
-  color: var(--primary);
 }
 
 .footer_some-icons {
@@ -250,9 +246,22 @@ footer ul li.active a {
     height: auto;
 }
 
+.lustmacher h3 {
+    margin: 1rem 0;
+}
 
+.lustmacher img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
 
+.upper-text {
+    border-top: var(--secondary) solid 1px;
+}
 
+.lower-text {
+    text-align: end;
+}
 
 
 
@@ -286,7 +295,7 @@ footer ul li.active a {
 
 .abopreise__packages__package__price {
   font-size: 50px;
-  font-weight: 500;
+  font-width: 500;
   text-align: center;
 }
 
@@ -542,7 +551,6 @@ object-fit: contain;
   border-radius: 5px; /* Abgerundete Ecken */
   padding: 10px; /* Innenabstand */
   margin: 10px 0; /* Abstand zwischen den Boxen */
-  font-size: 12px;
   color: var(--highlight);
   font-family: "noka", sans-serif;
   font-style: normal;
@@ -550,7 +558,6 @@ object-fit: contain;
 }
 
 .support_faq summary {
-  font-size: 12px;
   color:  #F5F5F5;
   font-family: "noka", sans-serif;
   font-style: normal;
@@ -561,7 +568,6 @@ object-fit: contain;
 
 
 .support_faq p {
-  font-size: 12px;
   line-height: 1.5;
   color: #F5F5F5;
   padding-top: 10px; 
@@ -615,7 +621,7 @@ object-fit: contain;
   margin-bottom: 15px;
   border: 2px solid #F5F5F5;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 1rem;
   background-color: var(--shade);
   font-family: "noka", sans-serif;
   font-style: normal;
@@ -660,7 +666,7 @@ object-fit: contain;
   margin-bottom: 15px;
   border: 2px solid #F5F5F5;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 1rem;
   background-color: var(--shade);
   font-family: "noka", sans-serif;
   font-style: normal;
@@ -671,68 +677,41 @@ object-fit: contain;
 
 /**======================PAYWALL======================**/
 .feld_kurz {
-  padding: 3px;
   display: flex;
-  gap: 5px;
-
-
+  gap: 15px;
 }
 
-.feld_kurz input {
-  width: 50%;
-  height: 30px;
+.personals input {
+  margin-bottom: 15px;
   padding: 10px;
-  margin-bottom: 3px;
-  border: 2px solid #F5F5F5;
-  border-radius: 5px;
-  font-size: 12px;
-  color: #F5F5F5;
-  background-color: var(--shade);
-  font-family: "noka", sans-serif;
-  font-style: normal;
-}
-
-.feld_lang {
-  padding: 3px;
-
-  
-}
-.feld_lang input {
-  margin-top:3px;
-  margin-bottom: 3px;
-  padding: 10px;
-  height:30px;
+  height: 40px;
   width: 100%;
   border: 2px solid #F5F5F5;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 1rem;
   color: #F5F5F5;
   background-color: var(--shade);
   font-family: "noka", sans-serif;
   font-style: normal;
 }
 
+.personals input:last-child {
+  margin-bottom: 0;
+}
+
+.personals .feld_kurz input {
+  width: 50%;
+}
 
 .pay {
-  margin-top: 20px;
-}
-
-.zahlmittel input {
-  display: flex;
-
-}
-
-.zahlmittel {
-  border: solid 2px var(--secondary); 
-  background-color: #363935;
-  border-radius: 20px;
-  padding: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  border-top: solid 1px var(--secondary);
+  padding-top: 20px;
 }
 
 .zahlmittel label {
   display: flex;
-  align-content: center;
+  align-items: center;
   border: solid 2px white;
   border-radius: 10px;
   padding: 10px;
@@ -743,8 +722,10 @@ object-fit: contain;
   margin-bottom: 10px;
 }
 
-.zahlmittel label p {
-  margin-top: 3px;
+.gutschein {
+  margin-top: 30px;
+  border-top: solid 1px var(--secondary);
+  padding-top: 20px;
 }
 
 .gutschein input {
@@ -757,7 +738,7 @@ object-fit: contain;
   width: 100%;
   border: 2px solid #F5F5F5;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 1rem;
   color: #F5F5F5;
   background-color: var(--shade);
   font-family: "noka", sans-serif;
@@ -765,32 +746,29 @@ object-fit: contain;
 }
 
 .agbtext {
-  margin-top: 10px;
+  margin-top: 30px;
+  border-top: solid 1px var(--secondary);
+  padding-top: 20px;
   gap: 8px;
-  margin-bottom: 20px;
 }
 
-.schriftgutscheine h2 {
-  font-size: x-large;
-  text-align: center;
-}
-
-.schriftgutscheine h4 {
-  font-size: x-large;
-  text-align: center;
-}
-
-.buttonabo {
+.agbtext_checkbox {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
+.agbtext_checkbox label {
+  margin-left: 10px;
+}
 
+.paywallpreis {
+  margin-top: 30px;
+  border-top: solid 1px var(--secondary);
+  padding-top: 20px;
+}
 
-
-
-
-
-
-
-
+.paywallpreis .button {
+  margin-top: 20px;
+}

@@ -9,7 +9,7 @@
   --secondary: #D60059;
   --shade: #1E1E1E;
   --highlight: #F5F5F5;
-  font-size: 13px;
+  font-size: 16px;
   color: var(--highlight);
   font-family: "noka", sans-serif;
   font-style: normal;
@@ -29,7 +29,7 @@ p a:hover, footer nav li a:hover {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 600;
   -webkit-background-clip: text;
   background-clip: text;
@@ -42,28 +42,28 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--primary);
   font-weight: 600;
   margin-bottom: 15px;
 }
 
 h3{
-  margin-bottom:5px;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--highlight);
-  font-weight: 400;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 h5 {
   font-size: 1rem;
   color: var(--highlight);
-  font-weight: 200;
-  margin-bottom: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 .button {
@@ -76,6 +76,10 @@ h5 {
   text-align: center;
   text-decoration: none;
   font-weight: 600;
+  outline: none;
+  appearance: none;
+  border: none;
+  font-size: 1rem;
 }
 
 .button:hover {

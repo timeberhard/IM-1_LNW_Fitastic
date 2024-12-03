@@ -658,22 +658,41 @@ object-fit: contain;
   display: flex;
   gap: 5px;
 
+
 }
 
 .feld_kurz input {
   width: 50%;
   height: 30px;
+  padding: 10px;
+  margin-bottom: 3px;
+  border: 2px solid #F5F5F5;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #F5F5F5;
+  background-color: var(--shade);
+  font-family: "noka", sans-serif;
+  font-style: normal;
 }
 
 .feld_lang {
   padding: 3px;
+
   
 }
 .feld_lang input {
   margin-top:3px;
   margin-bottom: 3px;
+  padding: 10px;
   height:30px;
-  width: 100%
+  width: 100%;
+  border: 2px solid #F5F5F5;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #F5F5F5;
+  background-color: var(--shade);
+  font-family: "noka", sans-serif;
+  font-style: normal;
 }
 
 
@@ -715,7 +734,41 @@ object-fit: contain;
   height: 30px;
   width: 100%;
   margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  height:30px;
+  width: 100%;
+  border: 2px solid #F5F5F5;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #F5F5F5;
+  background-color: var(--shade);
+  font-family: "noka", sans-serif;
+  font-style: normal;
 }
+
+.agbtext {
+  margin-top: 10px;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.schriftgutscheine h2 {
+  font-size: x-large;
+  text-align: center;
+}
+
+.schriftgutscheine h4 {
+  font-size: x-large;
+  text-align: center;
+}
+
+.buttonabo {
+  display: flex;
+  align-content: center;
+}
+
+
 
 
 

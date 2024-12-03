@@ -186,17 +186,61 @@ footer ul li {
 
 
 
-/**======================HOME======================**/
+/**======================LANDING PAGE======================**/
+main {
+    margin: 0 0 3rem 0;
+}
+
+.index_banner img {
+    width: 100vw;
+    height: 75vw;
+    object-fit: cover;
+    object-position: 0%;
+}
+
+.index_banner {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.index_banner_cta {
+    margin: 0 1.75rem;
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    bottom: 25%;
+}
+
+.index_banner h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.download-badge {
+    display: flex;
+    margin: 0.25 0;
+}
+
+.download-badge img {
+    width: 35vw;
+    height: auto;
+}
 
 
 
 
+<<<<<<< Updated upstream
 
 
 
 
 
 /**======================ABO+PREISE======================**/
+=======
+/**======================ABO & PREISE======================**/
+>>>>>>> Stashed changes
 
 .abopreise__packages {
   margin: 30px 0;

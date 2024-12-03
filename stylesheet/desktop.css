@@ -2,35 +2,40 @@
 /**======================HEADER======================**/
 header {
     background: none;
-  }
+}
 
-  header section .textlogo {
-    flex: 1;
-    margin-left: 15px;
-  }
+header section .textlogo {
+  flex: 1;
+  margin-left: 15px;
+}
 
-  header section .menu .burger {
-    display: none
-  }
+header section .menu .burger {
+  display: none
+}
 
-  header section .menu nav {
-    position: static;
-    background: none;
-    width: auto;
-    max-height: none;
-  }
+header section .menu nav {
+  position: static;
+  background: none;
+  width: auto;
+  max-height: none;
+}
 
-  header section .menu nav ul {
-    width: auto;
-    margin: 10px 0 0 0;
-    display: block;
-  }
+header section .menu nav ul {
+  width: auto;
+  margin: 10px 0 0 0;
+  display: block;
+}
 
-  header section .menu nav ul li {
-    display: inline-block;
-    margin-top: 0;
-    margin-left: 25px;
-  }
+header section .menu nav ul li {
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 25px;
+}
+
+.title {
+  align-items: start;
+  text-align: left;
+}
 
 /**======================FOOTER======================**/
 

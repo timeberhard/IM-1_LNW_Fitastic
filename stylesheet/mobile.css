@@ -176,6 +176,10 @@ footer ul li {
     justify-content: center;
 }
 
+footer ul li.active a {
+  color: var(--primary);
+}
+
 .footer_some-icons {
     width: 75vw;
     display: flex;
@@ -183,6 +187,19 @@ footer ul li {
     align-items: center;
     margin: 3rem 0;
 }
+
+.footer_some-icons a svg {
+  width: 40px;
+}
+
+.footer_some-icons a svg path {
+  fill: var(--primary);
+}
+
+.footer_some-icons a:hover svg path {
+  fill: var(--secondary);
+}
+
 
 
 
@@ -489,7 +506,7 @@ object-fit: contain;
 }
 
 .artikel{
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
  .bild_artikel {
@@ -507,8 +524,8 @@ object-fit: contain;
 }
 
 .text_artikel .button{
-    margin-top: 10px;
-    align-self: flex-end;
+    margin-top: 25px;
+    align-self: flex-start;
 }
 
 

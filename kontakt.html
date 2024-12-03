@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abo & Preise – F+</title>
+    <title>Kontaktformular – F+</title>
     <!-- Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/lgy7ccv.css">
     <!-- styles -->
@@ -30,7 +30,7 @@
           <nav>
             <ul>
               <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="abopreise.html">Abo & Preise</a></li>
+              <li><a href="abopreise.html">Abo & Preise</a></li>
               <li><a href="unserekurse.html">Unsere Kurse</a></li>
               <li><a href="ueberuns.html">Über uns</a></li>
               <li><a href="partner.html">Partner</a></li>
@@ -40,50 +40,42 @@
         </div>
       </section>
     </header>
-    <main class="abopreise">
-        <section>
-          <h1 class="title">Abo & Preise</h1>
-        </section>
-        <section class="abopreise__packages">
-          <article class="abopreise__packages__package">
-            <h2>10er-Abo</h2>
-            <p class="abopreise__packages__package__price"><sup>CHF</sup>126.–<sub>/10 Dates</sub></p>
-            <ul>
-              <li>10 Sport-Blinddates deiner Wahl</li>
-              <li>Für 1 Jahr gültig</li>
-              <li>Nicht Übertragbar</li>
-            </ul>
-            <a href="paywall.html" class="button">Jetzt kaufen</a>
-          </article>
-          <article class="abopreise__packages__package">
-            <h2>Monats-Abo</h2>
-            <p class="abopreise__packages__package__price"><sup>CHF</sup>32.–<sub>/Monat</sub></p>
-            <ul>
-              <li>Unlimitierte Sport-Blinddates deiner Wahl</li>
-              <li>Jederzeit Kündbar</li>
-              <li>Nicht Übertragbar</li>
-            </ul>
-            <a href="paywall.html" class="button">Jetzt kaufen</a>
-          </article>
-          <article class="abopreise__packages__package abopreise__packages__package_premium">
-            <h2>Jahres-Abo</h2>
-            <p class="abopreise__packages__package__price"><sup>CHF</sup>320.–<sub>/Jahr</sub></p>
-            <ul>
-              <li>Unlimitierte Sport-Blinddates deiner Wahl</li>
-              <li>Ende Jahr Kündbar</li>
-              <li>Nicht Übertragbar</li>
-            </ul>
-            <a href="paywall.html" class="button">Jetzt kaufen</a>
-          </article>
-        </section>
-        <section class="abopreise__business">
-          <img src="img/abopreise/342b0dfcf21f4e9a3ee981b694f802c4.jpeg" alt="">
-          <div  class="abopreise__business__text">
-            <h2>F+ for Business</h2>
-            <p>Sollen deine Mitarbeiter fitter werden und neues Erleben? Willst du die besten Benefits anbieten? Schenke alle deine Mitarbeitende ein F+ Sportabo.</p>
-            <a href="kontakt.html" class="button">Kontakt</a>
-          </div>
-        </section>
+    <main class="kontaktformular">
+      <form class="contact-form" action="/send-form" method="POST">
+
+        <section><h1>Kontaktformular</h1> </section>
+
+
+        <section> 
+          <div class="vornamename">
+                  <div class="item"><input type="text" id="name" name="name" placeholder="Name" required></div>
+                  <div class="item"><input type="text" id="name" name="name" placeholder="Vorname" required>
+                </div>
+              </div>
+            </section>
+    
+
+
+  
+  <section> 
+        <input type="email" id="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+  </section>
+
+  <section> 
+    <input type="phone" id="phone" name="phone" placeholder="Deine Telefonnummer" required>
+</section>
+
+  <section>
+          <textarea id="message" name="message" placeholder="Was möchtest du uns mitteilen?" rows="5" required></textarea>
+  </section>
+
+  <section>
+<button type="submit" class="button">Absenden</button>
+       
+  </section>
+  
+    </form>
+
     </main>
     <footer>
       <div class="footer_logo">
@@ -96,7 +88,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="ueberuns.html">Über uns</a></li>
             <li><a href="support.html">Support</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
+            <li class="active"><a href="kontakt.html">Kontakt</a></li>
             <li><a href="impressum.html">Impressum</a></li>
         </ul>
     </nav>

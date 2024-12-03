@@ -46,18 +46,19 @@
          <h1>Jahresabo</h1>
 
         <form class="paywall">
-            <div class="feld_kurz">
-                <input type="text" id="fname" name="fname" value="*Name">
-                <input type="text" id="lname" name="lname" value="*Nachname">
-            </div>
-
-            <div class="feld_lang">
-                <input type="text" id="email" name="email" value="*Mailadresse">
-                <input type="text" id="telnr" name="telnr" value="*Telefonnummer">
+            <div class="personals">
+                <h2>Personalien</h2>
+                <div class="feld_kurz">
+                    <input type="text" id="fname" name="fname" placeholder="*Vorname">
+                    <input type="text" id="lname" name="lname" placeholder="*Nachname">
+                </div>
+    
+                <input type="text" id="email" name="email" placeholder="*Mailadresse">
+                <input type="text" id="telnr" name="telnr" placeholder="*Telefonnummer">
             </div>
 
             <div class="pay"> 
-                    <h2>Zahlart</h2>
+                <h2>Zahlart</h2>
 
                 <div class="zahlmittel">
                     <label for="kreditkarte">
@@ -84,29 +85,33 @@
                         <input type="radio" id="paypal" name="zahlart" value="Paypal">
                         <p>Paypal</p>
                     </label>
-                </div> 
+                </div>
             </div>
 
             <div class="gutschein">
-                <h3>Gutschein einlösen</h3>
-                <input type="text" id="fname" name="gutschein einlösen" value="Code">
+                <h2>Gutschein einlösen</h2>
+                <input type="text" id="fname" name="gutschein einlösen" placeholder="Code">
             </div>
 
          <div class="agbtext">
-            <input type="checkbox" id="checkbox" name="agbs" value="akzeptieren">
-            <label for="vehicle1"> Ich habe die AGBs gelsen und akzeptiere diese.</label><br>
-            <input type="checkbox" id="checkbox" name="newsletter" value="abonieren">
-            <label for="vehicle1"> Ich möchte mit dem F+-Newsletter stehts auf dem Neusten Stand bleibe.</label>
+            <div class="agbtext_checkbox">
+                <input type="checkbox" id="agbs_checkbox" name="agbs" value="akzeptieren">
+                <label for="agbs_checkbox"> Ich habe die AGBs gelsen und akzeptiere diese.</label>
+            </div>
+            <div class="agbtext_checkbox">
+                <input type="checkbox" id="newsletter_checkbox" name="newsletter" value="abonieren">
+            <label for="newsletter_checkbox"> Ich möchte mit dem F+-Newsletter stehts auf dem Neusten Stand bleibe.</label>
+            </div>
          </div>
 
-         <div class="schriftgutscheine">
+         <div class="paywallpreis">
             <h2>Jahresabo F+</h2>
             <h4>449.-</h4>
          </div>
 
          <div class="buttonabo">
-         <a href="#" class="button">Kaufen</a>
-        </div>
+           <button type="submit" class="button">Kaufen</button>
+         </div>
 
         </form>
 

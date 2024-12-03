@@ -34,8 +34,48 @@ header {
 
 /**======================FOOTER======================**/
 
+footer * {
+    margin: 0;
+}
+
 footer {
     flex-direction: row;
+}
+
+footer nav, .footer_adress, .footer_some-icons{
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.footer_logo {
+    width: 150vw;
+}
+
+.footer_logo a {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_logo img {
+  width: 10vw;
+}
+
+footer ul li, footer p {
+  justify-content: center;
+  text-align: left;
+}
+
+footer ul li {
+  width: auto;
+}
+
+.footer_some-icons {
+  width: 0 20vw;
+  margin: auto 10vw;
+}
+
+.footer_some-icons img {
+  margin: auto 1vw;
 }
 
 

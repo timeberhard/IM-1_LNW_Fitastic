@@ -489,32 +489,26 @@ object-fit: contain;
 }
 
 .artikel{
-    display: flex;
-    gap: min(3vw, 40px);
     margin-bottom: 100px;
 }
 
-.artikel_reverse {
-    flex-direction: row-reverse;
-}
-
  .bild_artikel {
-    width: 50%;
+    width: 100%;
     height: 30vh;
     border-radius: 20px;
     object-fit: cover;
  }
 
 .text_artikel{
-    width: 50%;
+    width: 100%;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
 }
 
 .text_artikel .button{
-    margin-top: auto;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    align-self: flex-end;
 }
 
 

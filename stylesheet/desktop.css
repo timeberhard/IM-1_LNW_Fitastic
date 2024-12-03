@@ -189,13 +189,34 @@ footer ul li {
 
 /**======================SPORTARTEN======================**/
 
+.artikel{
+    display: flex;
+    gap: min(3vw, 40px);
+    margin-bottom: 100px;
+}
 
+.artikel_reverse {
+    flex-direction: row-reverse;
+}
 
+ .bild_artikel {
+    width: 50%;
+    height: 30vh;
+    border-radius: 20px;
+    object-fit: cover;
+ }
 
+.text_artikel{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
 
-
-
-
+.text_artikel .button{
+    margin-top: auto;
+    margin-bottom: 20px;
+}
 
 /**======================SUPPORT======================**/
 

@@ -189,13 +189,113 @@ footer ul li {
 
 
 
-/**======================Abo+Preise======================**/
+/**======================ABO+PREISE======================**/
 
+.abopreise__packages {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
 
+.abopreise__packages__package {
+  background-color: #363935;
+  border-radius: 20px;
+  padding: 20px 30px 2px 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
 
+.abopreise__packages__package_premium {
+  padding: 18px 28px 0 28px;
+  border: solid 2px var(--secondary);
+}
 
+.abopreise__packages__package h2 {
+  text-align: center;
+}
 
+.abopreise__packages__package__price {
+  font-size: 50px;
+  font-width: 500;
+  text-align: center;
+}
 
+.abopreise__packages__package__price sub {
+  font-size: 1rem;
+  position: relative;
+  bottom: 8px;
+  margin-left: 5px;
+}
+
+.abopreise__packages__package__price sup {
+  font-size: 1rem;
+  position: relative;
+  top: -8px;
+  margin-right: 5px;
+}
+
+.abopreise__packages__package ul {
+  margin: 20px 0 0 0;
+  list-style-type: none;
+}
+
+.abopreise__packages__package ul li {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.abopreise__packages__package .button {
+  position: relative;
+  top: 21px;
+}
+
+.abopreise__business {
+  margin: 80px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.abopreise__business img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.abopreise__business__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  padding: 10px 0 15px 0;
+  margin-top: 20px;
+}
+
+.abopreise__business__text::before {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 1px;
+  background-color: var(--secondary);
+  position: absolute;
+  top: 0;
+}
+
+.abopreise__business__text::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 1px;
+  background-color: var(--secondary);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.abopreise__business__text .button {
+  align-self: flex-end;
+  margin-top: 20px;
+}
 
 
 
@@ -213,24 +313,28 @@ max-width: 30vw;
 .partner_werden_vorteile {
 display: flex;
 flex-direction: column;
+margin-bottom: 10px;
 }
 
 .partner_werden_vorteil-1 {
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+margin: 10px 20px 20px 10px;
 }
 
 .partner_werden_vorteil-2 {
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+margin: 10px 20px 20px 10px;
 }
 
 .partner_werden_vorteil-3 {
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+margin: 10px 20px 20px 10px;
 }
 
 .partner_werden_kurse {
@@ -241,7 +345,7 @@ flex-direction: column;
 .partner_werden_box {
 border-radius: 20px;
 border: solid 2px white;
-margin-bottom: 15px;
+margin: 10px 20px 20px 10px
 }
 
 .partner_werden_kursbild {

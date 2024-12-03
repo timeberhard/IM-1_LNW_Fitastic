@@ -124,6 +124,10 @@ footer ul li {
 }
 
 /**======================PARTNER======================**/
+.partner_werden {
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  }
   
   .partner_werden_vorteile {
     flex-direction: row;

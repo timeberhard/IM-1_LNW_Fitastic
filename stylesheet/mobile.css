@@ -314,7 +314,7 @@ text-align: center;
 }
 
 .partner_werden_bild {
-max-width: 30vw;
+width: 30%;
 }
 
 .partner_werden_vorteile {
@@ -323,21 +323,7 @@ flex-direction: column;
 margin-bottom: 10px;
 }
 
-.partner_werden_vorteil-1 {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-margin: 10px 20px 20px 10px;
-}
-
-.partner_werden_vorteil-2 {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-margin: 10px 20px 20px 10px;
-}
-
-.partner_werden_vorteil-3 {
+.partner_werden_vorteil {
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
@@ -364,18 +350,18 @@ justify-content: center;
 .partner_werden_kursangaben {
 display: flex;
 flex-direction: column;
-margin: 5px 10px 0px 10px
+margin: 5px 10px 10px 10px
 }
 
 .partner_werden_kursdaten {
-display: flex;
-justify-content: flex-start;
-align-items: center;
-margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
 }
 
 .partner_werden_icon {
-max-width: 6vw;
+width: 6vw;
 margin-right: 8px;
 object-fit: contain;
 }

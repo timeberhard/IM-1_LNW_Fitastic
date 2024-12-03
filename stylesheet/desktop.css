@@ -124,79 +124,37 @@ footer ul li {
 }
 
 /**======================PARTNER======================**/
-
-.partner_werden {
-    padding: 20px 0px 20px 0px;
-    text-align: center;
-  }
   
   .partner_werden_vorteile {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   
-  .partner_werden_vorteil-1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 30%;
-    padding: 5px 20px 10px 20px;
-  }
-  
-  .partner_werden_vorteil-2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 30%;
-    padding: 5px 20px 10px 20px;
-  }
-   
-  .partner_werden_vorteil-3 {
-    display: flex;
-    flex-wrap: wrap;
+  .partner_werden_vorteil {
     flex: 30%;
     padding: 5px 20px 10px 20px;
   }
   
   .partner_werden_kurse {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   
   .partner_werden_box {
-    border-radius: 20px;
-    border: solid 2px white;
-
     display: flex;
     flex-wrap: wrap;
     flex: 22%;
-
     margin: 5px 20px 10px 20px;
   }
   
-  .partner_werden_kursbild {
-  border-radius: 20px;
-  max-width: 100%;
-  justify-content: center;
-  }
-  
   .partner_werden_kursangaben {
-  display: flex;
-  flex-direction: column;
-  margin: 20px 10px 0px 15px
-  }
-  
-  .partner_werden_kursdaten {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 15px;
+  margin: 20px 10px 20px 15px;
+  text-align: left;
   }
   
   .partner_werden_icon {
-  max-width: 3vw;
-  margin-right: 8px;
-  object-fit: contain;
+  width: 30px;
+  margin-right: 15px;
   }
 
 

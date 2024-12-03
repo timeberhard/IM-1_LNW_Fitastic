@@ -176,6 +176,10 @@ footer ul li {
     justify-content: center;
 }
 
+footer ul li.active a {
+  color: var(--primary);
+}
+
 .footer_some-icons {
     width: 75vw;
     display: flex;

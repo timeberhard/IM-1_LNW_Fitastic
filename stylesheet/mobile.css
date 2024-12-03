@@ -130,7 +130,7 @@ header section .menu nav ul li a:hover {
 }
 
 header section .menu #menuopen:checked ~ nav {
-  max-height: 260px;
+  max-height: 300px;
 }
 
 .title {

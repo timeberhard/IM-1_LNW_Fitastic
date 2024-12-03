@@ -246,9 +246,22 @@ footer ul li {
     height: auto;
 }
 
+.lustmacher h3 {
+    margin: 1rem 0;
+}
 
+.lustmacher img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
 
+.upper-text {
+    border-top: var(--secondary) solid 1px;
+}
 
+.lower-text {
+    text-align: end;
+}
 
 
 

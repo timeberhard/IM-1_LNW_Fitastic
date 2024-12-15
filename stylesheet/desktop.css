@@ -86,9 +86,73 @@ footer ul li {
 
 /**======================LANDING PAGE======================**/
 
+.index_banner {
+  display: flex;
+  align-items: center;
 
+}
 
+.index_banner .image_container {
+  width: 50%;
+  flex: 1;
+  margin: 2rem 0;
+}
 
+.index_banner_text {
+  width: 50%;
+  order: -1;
+}
+
+.index_banner_text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.index_banner_text p {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.download-badge {
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.erklaerung:after {
+  height: 300%;
+  top: -100%;
+  transform: translateX(-50%) rotate(-180deg);
+}
+
+.erklaerung__content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.erklaerung__content iframe {
+  width: 65%;
+}
+
+.erklaerung__content__text {
+  flex: 1;
+}
+
+.testimonials {
+  display: flex;
+  align-items: stretch;
+  gap: 2rem;
+}
+
+.testimonials__card {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials__card__author {
+  margin-top: auto;
+}
 
 
 

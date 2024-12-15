@@ -71,11 +71,11 @@ header section .menu .burger span:nth-child(3) {
   top: 45px;
 }
 
-header section .menu #menuopen:checked ~ .burger span:nth-child(2)  {
+header section .menu #menuopen:checked ~ .burger span:nth-child(2) {
   transition-duration: 0.5s;
   background: transparent;
 }
-header section .menu #menuopen:checked ~ .burger span:nth-child(1)  {
+header section .menu #menuopen:checked ~ .burger span:nth-child(1) {
   transform: rotateZ(-45deg) translateY(0) scale(1.05);
 }
 header section .menu #menuopen:checked ~ .burger span:nth-child(3) {
@@ -111,7 +111,7 @@ header section .menu nav ul li {
 }
 
 header section .menu nav ul li.active::after {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 2px;
@@ -142,46 +142,49 @@ header section .menu #menuopen:checked ~ nav {
 
 /**======================FOOTER======================**/
 footer {
-    background-color: #363935;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-top: var(--secondary) solid 2px;
+  background-color: #363935;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: var(--secondary) solid 2px;
 }
 
-.footer_logo, footer nav, .footer_adress {
-    margin: 0.75rem 0;
+.footer_logo,
+footer nav,
+.footer_adress {
+  margin: 0.75rem 0;
 }
 
-footer p a, footer ul li a {
-    color: var(--highlight);
+footer p a,
+footer ul li a {
+  color: var(--highlight);
 }
 
 .footer_logo {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .footer_logo img {
-    width: 25vw;
+  width: 25vw;
 }
 
 footer p {
-    text-align: center;
+  text-align: center;
 }
 
 footer ul li {
-    text-align: center;
-    width: 100vw;
-    list-style-type: none;
-    justify-content: center;
+  text-align: center;
+  width: 100vw;
+  list-style-type: none;
+  justify-content: center;
 }
 
 .footer_some-icons {
-    width: 75vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 3rem 0;
+  width: 75vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem 0;
 }
 
 .footer_some-icons a svg {
@@ -195,9 +198,6 @@ footer ul li {
 .footer_some-icons a:hover svg path {
   fill: var(--secondary);
 }
-
-
-
 
 /**======================LANDING PAGE======================**/
 
@@ -245,13 +245,13 @@ footer ul li {
 
 .download-badge {
   margin-right: 0.5rem;
-  margin-bottom: 0.5rem; 
+  margin-bottom: 0.5rem;
   height: 2.5rem;
 }
 
 .download-badge:last-child {
   margin-right: 0;
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 .download-badge img {
@@ -270,7 +270,7 @@ footer ul li {
 }
 
 .lustmacher::before {
-  content: "";
+  content: '';
   display: block;
   width: 60%;
   height: 1px;
@@ -280,7 +280,7 @@ footer ul li {
 }
 
 .lustmacher::after {
-  content: "";
+  content: '';
   display: block;
   width: 60%;
   height: 1px;
@@ -313,7 +313,7 @@ footer ul li {
 }
 
 .erklaerung:after {
-  content: "";
+  content: '';
   display: block;
   background-image: url('../img/landing-page/stripe.png');
   background-size: contain;
@@ -458,7 +458,7 @@ footer ul li {
 }
 
 .abopreise__business__text::before {
-  content: "";
+  content: '';
   display: block;
   width: 60%;
   height: 1px;
@@ -468,7 +468,7 @@ footer ul li {
 }
 
 .abopreise__business__text::after {
-  content: "";
+  content: '';
   display: block;
   width: 60%;
   height: 1px;
@@ -483,56 +483,54 @@ footer ul li {
   margin-top: 20px;
 }
 
-
-
 /**======================PARTNER======================**/
 
 .partner_werden {
-text-align: center;
-margin: 20px 0px 20px 0px;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
 }
 
 .partner_werden_bild {
-width: 20%;
-align-self: center;
+  width: 20%;
+  align-self: center;
 }
 
 .partner_werden_vorteile {
-display: flex;
-flex-direction: column;
-margin: 30px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px 20px 0px;
 }
 
 .partner_werden_vorteil {
-display: flex;
-justify-content: center;
-flex-direction: column;
-margin: 10px 20px 20px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 20px 20px 10px;
 }
 
 .partner_werden_kurse {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .partner_werden_box {
-border-radius: 20px;
-border: solid 2px white;
-margin: 10px 20px 20px 10px
+  border-radius: 20px;
+  border: solid 2px white;
+  margin: 10px 20px 20px 10px;
 }
 
 .partner_werden_kursbild {
-border-radius: 20px;
-width: 100%;
-height: 250px;
-justify-content: center;
-object-fit: cover;
+  border-radius: 20px;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  object-fit: cover;
 }
 
 .partner_werden_kursangaben {
-display: flex;
-flex-direction: column;
-margin: 5px 10px 10px 10px
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px 10px 10px;
 }
 
 .partner_werden_kursdaten {
@@ -543,27 +541,16 @@ margin: 5px 10px 10px 10px
 }
 
 .partner_werden_icon {
-width: 4vw;
-margin-right: 8px;
-object-fit: contain;
+  width: 4vw;
+  margin-right: 8px;
+  object-fit: contain;
 }
-
 
 /**======================IMPRESSUM======================**/
 .impressum section {
-    margin-bottom: 15px;
-    margin-top: 20px;
-
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 /**======================UBERUNS======================**/
 
@@ -575,22 +562,22 @@ object-fit: contain;
 
 .profile {
   text-align: center;
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  align-items: center;    
+  align-items: center;
   margin-bottom: 60px;
 }
 
-.profile p{
+.profile p {
   width: 70%;
 }
 
 .portrait {
- border-radius: 50%;
- padding: 10px;
- object-fit: cover;
- width: 55vw;
- height: 55vw;
+  border-radius: 50%;
+  padding: 10px;
+  object-fit: cover;
+  width: 55vw;
+  height: 55vw;
 }
 
 .entstehung img {
@@ -607,55 +594,41 @@ object-fit: contain;
 
 .gruendung h2 {
   margin-bottom: 10px;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .gruendung p {
   margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-
-
 /**======================Unsere Kurse(=Sportarten)======================**/
 
-.artikeln:last-child{
-    margin-bottom: 0px;
+.artikeln:last-child {
+  margin-bottom: 0px;
 }
 
-.artikel{
-    margin-bottom: 90px;
+.artikel {
+  margin-bottom: 90px;
 }
 
- .bild_artikel {
-    width: 100%;
-    height: 30vh;
-    border-radius: 20px;
-    object-fit: cover;
- }
-
-.text_artikel{
-    width: 100%;
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
+.bild_artikel {
+  width: 100%;
+  height: 30vh;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
-.text_artikel .button{
-    margin-top: 25px;
-    align-self: flex-start;
+.text_artikel {
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
-
-
-
-
-
+.text_artikel .button {
+  margin-top: 25px;
+  align-self: flex-start;
+}
 
 /**======================SUPPORT======================**/
 
@@ -669,30 +642,30 @@ object-fit: contain;
 
 .support_faq__question {
   background-color: var(--shade); /* Hintergrundfarbe */
-  border: 2px solid #F5F5F5; /* Rand */
+  border: 2px solid #f5f5f5; /* Rand */
   border-radius: 5px; /* Abgerundete Ecken */
   padding: 10px; /* Innenabstand */
   margin: 10px 0; /* Abstand zwischen den Boxen */
   color: var(--highlight);
-  font-family: "noka", sans-serif;
+  font-family: 'noka', sans-serif;
   font-style: normal;
-  Display: flex; align-content: center;
+  display: flex;
+  align-content: center;
 }
 
 .support_faq__question summary {
   color: var(--highlight);
-  font-family: "noka", sans-serif;
+  font-family: 'noka', sans-serif;
   font-style: normal;
 
-  cursor: pointer; 
-  padding: 5px; 
+  cursor: pointer;
+  padding: 5px;
 }
-
 
 .support_faq__question p {
   line-height: 1.5;
   color: var(--highlight);
-  padding-top: 10px; 
+  padding-top: 10px;
 }
 
 .support .contact {
@@ -714,15 +687,13 @@ object-fit: contain;
 
 .vornamename {
   display: flex;
-  gap: 30px; 
+  gap: 30px;
   width: 100%;
-
 }
 
 .item {
   width: 50%;
 }
-
 
 .contact-form {
   padding: 20px;
@@ -734,11 +705,11 @@ object-fit: contain;
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 2px solid #F5F5F5;
+  border: 2px solid #f5f5f5;
   border-radius: 5px;
   font-size: 1rem;
   background-color: var(--shade);
-  font-family: "noka", sans-serif;
+  font-family: 'noka', sans-serif;
   font-style: normal;
 }
 
@@ -754,19 +725,17 @@ object-fit: contain;
 
 .vornamename {
   display: flex;
-  gap: 30px; 
+  gap: 30px;
   width: 100%;
-
 }
 
-.item {width: 50%
-  ;
+.item {
+  width: 50%;
 }
 
 .contact-form {
-    
-    padding: 20px;
-    border-radius: 8px;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .contact-form input,
@@ -774,16 +743,13 @@ object-fit: contain;
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 2px solid #F5F5F5;
+  border: 2px solid #f5f5f5;
   border-radius: 5px;
   font-size: 1rem;
   background-color: var(--shade);
-  font-family: "noka", sans-serif;
+  font-family: 'noka', sans-serif;
   font-style: normal;
 }
-
-
-
 
 /**======================PAYWALL======================**/
 .feld_kurz {
@@ -796,12 +762,12 @@ object-fit: contain;
   padding: 10px;
   height: 40px;
   width: 100%;
-  border: 2px solid #F5F5F5;
+  border: 2px solid #f5f5f5;
   border-radius: 5px;
   font-size: 1rem;
-  color: #F5F5F5;
+  color: #f5f5f5;
   background-color: var(--shade);
-  font-family: "noka", sans-serif;
+  font-family: 'noka', sans-serif;
   font-style: normal;
 }
 
@@ -844,14 +810,14 @@ object-fit: contain;
   margin-top: 5px;
   margin-bottom: 10px;
   padding: 10px;
-  height:30px;
+  height: 30px;
   width: 100%;
-  border: 2px solid #F5F5F5;
+  border: 2px solid #f5f5f5;
   border-radius: 5px;
   font-size: 1rem;
-  color: #F5F5F5;
+  color: #f5f5f5;
   background-color: var(--shade);
-  font-family: "noka", sans-serif;
+  font-family: 'noka', sans-serif;
   font-style: normal;
 }
 

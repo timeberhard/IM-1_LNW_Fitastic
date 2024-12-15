@@ -659,7 +659,15 @@ object-fit: contain;
 
 /**======================SUPPORT======================**/
 
+.support .title {
+  margin-bottom: 3rem;
+}
+
 .support_faq {
+  margin-bottom: 3rem;
+}
+
+.support_faq__question {
   background-color: var(--shade); /* Hintergrundfarbe */
   border: 2px solid #F5F5F5; /* Rand */
   border-radius: 5px; /* Abgerundete Ecken */
@@ -671,8 +679,8 @@ object-fit: contain;
   Display: flex; align-content: center;
 }
 
-.support_faq summary {
-  color:  #F5F5F5;
+.support_faq__question summary {
+  color: var(--highlight);
   font-family: "noka", sans-serif;
   font-style: normal;
 
@@ -681,23 +689,17 @@ object-fit: contain;
 }
 
 
-.support_faq p {
+.support_faq__question p {
   line-height: 1.5;
-  color: #F5F5F5;
+  color: var(--highlight);
   padding-top: 10px; 
 }
 
 .support .contact {
-  margin-bottom: 40px;
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-.support .contact .button {
-  margin-top: 25px;
 }
 
 /**======================FORMULARPARTNER======================**/
@@ -717,15 +719,14 @@ object-fit: contain;
 
 }
 
-.item {width: 50%
-  ;
+.item {
+  width: 50%;
 }
 
 
 .contact-form {
-    
-    padding: 20px;
-    border-radius: 8px;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .contact-form input,
@@ -740,11 +741,6 @@ object-fit: contain;
   font-family: "noka", sans-serif;
   font-style: normal;
 }
-
-
-
-
-
 
 /**======================Kontaktformular======================**/
 .kontaktformular section {

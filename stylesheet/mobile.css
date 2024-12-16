@@ -355,6 +355,10 @@ footer ul li {
   border-radius: 20px;
 }
 
+.testimonialsection h2 {
+  text-shadow: 0 0 10px var(--shade);
+}
+
 .testimonials__card {
   background-color: #363935;
   padding: 1.5rem;

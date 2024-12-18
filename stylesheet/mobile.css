@@ -672,7 +672,7 @@ footer ul li {
   font-family: 'noka', sans-serif;
   font-style: normal;
   display: flex;
-  align-content: center;
+  flex-direction: column;
 }
 
 .support_faq__question summary {
